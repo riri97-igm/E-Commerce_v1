@@ -27,6 +27,7 @@ Includes a REST API, database migrations/seed, and Docker support.
 
 ## 📂 Project Structure
 Restore-v2/
+
 ├─ API/ # ASP.NET Core Web API
 
 ├─ client/ # Frontend client
