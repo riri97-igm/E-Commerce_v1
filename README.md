@@ -1,19 +1,40 @@
-# Restore Udemy Course repository
+This project is for educational purposes as part of a coding assignment.
 
-This is the updated repository for the .Net 9.0, React 19 and Redux + RTK Query version of the course rewritten as at December 2024
+# E-Commerce_v1 🛒
 
-View a demo of this app [here](https://restore-course.azurewebsites.net/).  
+Full-stack E-Commerce application built with **ASP.NET Core (.NET 9)** and a **client app** (see `/client`).  
+Includes a REST API, database migrations/seed, and Docker support.
 
-You can see how this app was made by checking out the Udemy course for this here (with discount)
+---
 
-[Udemy course](https://www.udemy.com/course/learn-to-build-an-e-commerce-store-with-dotnet-react-redux/?couponCode=GITHUBRESTORE)
+## 📌 Tech Stack
 
-# Previous versions of the code
+### Backend
+- **.NET 9**
+- **ASP.NET Core Web API**
+- **Entity Framework Core**
+- **SQL Server**
+- Swagger / OpenAPI
 
-If you are looking for the repository for the version of this app created on .Net 7.0, React 18 then this is available here:
+### Frontend
+- Client app located in: `/client`  
 
-https://github.com/TryCatchLearn/Restore
+### DevOps
+- Docker + docker-compose
+- Environment-based configuration (User Secrets / env vars)
 
-If you are looking for the repository for the version of this app created on .Net 6.0 and Angular v12 then this is available here:
+---
 
-https://github.com/TryCatchLearn/Restore-v6
+## 📂 Project Structure
+Restore-v2/
+
+├─ API/ # ASP.NET Core Web API
+
+├─ client/ # Frontend client
+
+├─ docker-compose.yml # Docker services (SQL Server, etc.)
+
+├─ Restore.sln # Visual Studio solution
+
+└─ README.md
+
