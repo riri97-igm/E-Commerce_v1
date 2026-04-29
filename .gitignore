@@ -491,3 +491,7 @@ API/appsettings.json
 # Ignore local secrets
 API/appsettings.Development.json
 .env
+
+API/appsettings.Development.json
+client/.env
+API/store.db
